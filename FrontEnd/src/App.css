@@ -1,0 +1,130 @@
+.app-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  height: auto;
+}
+
+.side-by-side-components {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 20px;
+  border: 0;
+  /* color: rgba(0,0,0,0);
+  top:0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+}
+.ShowTimes{
+  text-align: center;
+  padding: 20px;
+ 
+}
+.movies-container {
+  max-height: 600px; 
+  overflow-y: auto; 
+}
+
+.movie-card {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between; /* Align children (movie info and video container) with space in between */
+  align-items: flex-start; /* Align items at the start of the cross axis (top) */
+  margin-bottom: 20px;
+
+}
+
+.movie-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.movie-info h2{
+  font-size:3.5em
+}
+.movie-card p {
+  margin-bottom: 5px;
+}
+
+.movie-card span {
+  margin-right: 5px;
+}
+
+.video-container p{
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+
+.timing-button {
+  margin-right: 5px;
+  padding: 5px 10px;
+ 
+  color: black;
+
+  cursor: pointer;
+}
+
+p{
+  font-family: gordita,Helvetica,sans-serif;
+       margin-bottom: 30px;
+}
+h2{
+
+  font-size: 25px;
+  font-weight: 900;
+
+}
+/* styles.css or styles.scss */
+.movie-image {
+  width: 110px;
+  height: 125px;
+  /* Add any additional styling as needed */
+}
+
+.movie-info {
+ width: 500px;
+}
+
+
+/* Video.css */
+
+.video-container {
+  width: 10px;
+  height: 240px;
+  margin-top: 20px;
+  margin-left: auto;
+
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.play-button svg {
+  width: 50px;
+  height: 50px;
+}
+
+/* Hide the play button when the video is playing */
+.play-button.hidden {
+  display: none;
+}
+
+
+.video-wrapper {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
